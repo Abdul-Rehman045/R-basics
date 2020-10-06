@@ -104,6 +104,14 @@ numb=readline(prompt="Enter Number: ")
 numb=as.integer(numb)
 print(numb)
 
+# take input from user
+name.my<-readline(prompt="Your name is :")
+age.my<-readline(prompt=" Age is:")
+age.my<-as.integer(age.my)
+
+# printing  name and age which is taken as input as above
+print(paste("My name is ",name.my, "and age is",age.my+1))
+
 #printing more than one variable (use of cat)
 a=2
 b="CGPA : "
